@@ -204,7 +204,7 @@ header {
   object-position: center;
 }
 
-@media only screen and (max-width: 800px) {
+@media (max-width: 800px) {
   section {
     padding: 5rem;
   }
@@ -218,5 +218,11 @@ header {
 
   .about__text {
     width: 80vw;
+  }
+}
+
+@media (max-width: 600px) {
+  .main__title {
+    font-size: 3rem;
   }
 }
